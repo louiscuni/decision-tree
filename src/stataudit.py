@@ -26,6 +26,7 @@ def hist_1D (df):#print a histogram for each column of a dataframe
 			col = df.get(i)
 			nbv = value_possible(col)
 			hist = plt.hist(col, bins = len(nbv), normed = False)
+			#plt.show()
 			res = fusion(nbv, hist[0])
 			print(res)
 			print("####")
