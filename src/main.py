@@ -23,6 +23,10 @@ m = "save.txt" #tree saved with 5 floors
 mm = "save2.txt" #tree saved with 6 floors
 mmm = "savelight.txt" #tree saved with 3 floors
 
+#stat audit
+# df = makeDF(nn)
+# hist_1D(df) #non graphical display
+
 ## To build a new tree ##
 # df = makeDF(nn)
 # t = makeTree(df, 3)
